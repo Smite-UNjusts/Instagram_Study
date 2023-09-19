@@ -1,73 +1,106 @@
-
 <html>
-    <head></head>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
+        <script src="script.js"></script>
+    </head>
     <body>
-        <div>
-            <img src="https://www.cambly.com/_next/static/media/secondary_light.9d2bb836.svg" width="100px/">
+
+        <div id="top">
+            <img src="https://www.cambly.com/_next/static/media/secondary_light.9d2bb836.svg" width="80px/">
             <input type="search" value="🤔검색"/>
+            <div>
+                <i class="fas fa-home"></i>
+                <i class="far fa-paper-plane"></i>
+                <i class="fa-compass"></i>
+                <i class="far fa-heart"></i>
+            </div>
         </div>
         <div>
-            <img src="images/profile.jpg" width="50px">
-            <div>
-                <h2>half_bottle</h2>
+        <div id="profile">
+            <div id="profile_pic">
+                <img class="circle_pic" src="images/profile.jpg"/>
+            </div>    
+            <div id="profile_info">
+                <div id="id">
+                    <span>Jay</span>
+                    <i class="fas fa-cog"></i>
+                </div>
                 <button>프로필 편집</button>
             </div>
         </div>
         <div>
-        <p>
-            <strong>
-                반병헌 (Byunghyun Ban)
-            </strong><br/>
-            작가
-        </p>
-        <p></p>
-            <a href="https://needleworm.github.io">
-                needleworm.github.io
-            </a>
-        </p>
+            <p>
+                <strong id="userInfo"> 
+                    이재호 (Jay Lee)
+                </strong><br/>
+                <span id="summary"> Robotics Doctor </span>
+            </p>
+            <p id="profileDetail">
+                <a href="https://needleworm.github.io">
+                    needleworm.github.io
+                </a>
+            </p>
+            
+        </div>
+        </div>
+    <div id="highlight_area">
+        <div class="highlight">
+            <div class="highlight_pic">
+                <img class="circle_pic" src="images/hl 1.jpg" />
+            </div>
+            <div>
+                😊
+            </div>
+        </div>
+        <div class="highlight">
+            <div class="highlight_pic">
+                <img class="circle_pic" src="images/hl 2.jpg" />
+            </div>
+            <div>
+                😂
+            </div>
+        </div>
+        <div></div>
     </div>
-    <div>
-        <div>
-        <img src="images/hl 1.jpg" height="35px"/>
-        </div>
-        <div>
-            😊
-        </div>
-    </div>
-    <div>
-        <div>
-            <img src="images/hl 2.jpg" height="35px"/>
-        </div>
-        <div>
-            😂
-        </div>
-    </div>
-        <div>
+    <div id="stat_bar">
+        <div class="stat">
             게시물<br/>
             133
         </div>
-        <div>
+        <div class="stat">
             팔로워<br/>
             408
         </div>
-        <div>
+        <div class="stat">
             팔로우<br/>
             189
         </div>
     </div>
-        <div>아이콘이 들어갈 자리</div>
-        <div>
-            <img src="images/thumbnails/1.jpg" width="32%"/>
-            <img src="images/thumbnails/2.jpg" width="32%"/>
-            <img src="images/thumbnails/3.jpg" width="32%"/>
-            <img src="images/thumbnails/4.jpg" width="32%"/>
-            <img src="images/thumbnails/5.jpg" width="32%"/>
-            <img src="images/thumbnails/6.jpg" width="32%"/>
-            <img src="images/thumbnails/7.jpg" width="32%"/>
-            <img src="images/thumbnails/8.jpg" width="32%"/>
-            <img src="images/thumbnails/9.jpg" width="32%"/>
+    </div>
+        <div id="sub_icons">
+            <div class="selected"><i class="fas fa-border-all"></i></div>
+            <div><i class="fas fa-film"></i></div>
+            <div><i class="far fa-play-circle"></i></div>
+            <div><i class="far fa-bookmark"></i></div>
+            <div><i class="fas fa-user-tag"></i></div>
         </div>
-    </body>
+        <div>
+            <div class="thumbnail_grid">
+                <img src="images/thumbnails/1.jpg" class="thumbnail"/>
+                <img src="images/thumbnails/2.jpg" class="thumbnail"/>
+                <img src="images/thumbnails/3.jpg" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src="images/thumbnails/4.jpg" class="thumbnail"/>
+                <img src="images/thumbnails/5.jpg" class="thumbnail"/>
+                <img src="images/thumbnails/6.jpg" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src="images/thumbnails/7.jpg" class="thumbnail"/>
+                <img src="images/thumbnails/8.jpg" class="thumbnail"/>
+                <img src="images/thumbnails/9.jpg" class="thumbnail"/>
+            </div>
+        </div>
+    </body> 
 </html>
-
-
